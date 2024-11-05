@@ -1,0 +1,37 @@
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aceptar{
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#checkbox{
+    width: 10px;
+    font-size: 1px;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.formato{
+    background-color: rgb(209, 209, 198);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

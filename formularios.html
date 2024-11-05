@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
 <body>
-    <form><!--para crear formularios-->
-        <br>
-        <label>Nombre completo: </label>
-        <input type="text"><!--para pedir información especifica al usuario. typ es un atributo que determina el tipo de input que se le pedira al usuario-->
-        <br>
-        <label for="correo">Correo elctrónico: </label><!--for para indicar que pertenece al input de email. En for se pone el id de email-->
-        <input type="email" id="correo">
-        <br>
-        <label>Contraseña: </label>
-        <input type="password">
-        <br>
-        <label>Fecha de nacimiento: </label>
-        <input type="date">
-        <br>
-        <label>Teléfono: </label>
-        <input type="tel">
-        <br>
-        <input type="checkbox">
-        <label>He leído y acepto los términos y condiciones</label>
-        <br>
-        <input type="radio">
-        <label>¿Quieres recibir promociones?</label>
-        <br>
-        <input type="submit" value="Aceptar">
-        <input type="button" value="Otro botón">
-    </form>
+    <div class="contenedor">
+        <div class="formato">
+            <div>
+                <h1 id="titulo">Formulario de registro</h1>
+                <form><!--para crear formularios-->
+                    
+                    <div id="nombre">
+                        <label>Nombre completo: <br></label>
+                        <input type="text"><!--para pedir información especifica al usuario. typ es un atributo que determina el tipo de input que se le pedira al usuario-->
+                    </div>
+                    
+                    <div id="email">
+                        <label for="correo">Correo elctrónico: <br></label><!--for para indicar que pertenece al input  de email. En for se pone el id de email-->
+                        <input type="email">
+                    </div>
+                    
+                    <div id="nacimiento">
+                        <label>Fecha de nacimiento: <br></label>
+                        <input type="date">
+                    </div>
+                    
+                    <div id="tel">
+                        <label>Teléfono: <br></label>
+                        <input type="tel">
+                    </div>
+                    
+                    <div>
+                        <input id="checkbox" type="checkbox">
+                        <label>He leído y acepto los términos y condiciones <br></label>
+                    </div>
+                    
+                    <div id="radio">
+                        <input type="radio" id="checkbox">
+                        <label>¿Quieres recibir promociones?<br></label>
+                    </div>
+                    
+                    <div class="boton">
+                        <button id="aceptar" type="button">Aceptar</button>
+                        <input type="button" value="Otro botón" id="aceptar">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

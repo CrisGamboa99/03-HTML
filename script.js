@@ -19,7 +19,7 @@ document.getElementById('aceptar').addEventListener('click',function(){
     } else if (tel === ''){
         alert('Por favor ingresa tu teléfono. El campo no puede quedar vacío.');
     } else if (!checkbox.checked){
-        alert('Por favor verifica que has leído y acepta los términos y condiciones.');
+        alert('Por favor verifica que has leído y aceptado los términos y condiciones.');
     } else{
         alert('Registro completo ' + nombre + '!');
     }
